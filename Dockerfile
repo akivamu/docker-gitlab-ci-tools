@@ -2,4 +2,4 @@ FROM alpine:3.10
 
 RUN apk add --no-cache openssh-client gettext
 
-ENTRYPOINT ["/bin/sh"]
+CMD ["/bin/sh"]
